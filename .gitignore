@@ -17,3 +17,4 @@ pids/
 results/
 npm-debug.log
 .git/
+.npmignore

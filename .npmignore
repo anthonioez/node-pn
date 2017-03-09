@@ -17,3 +17,4 @@ lib-cov
 *.gz
 *.pem
 npm-debug.log
+.gitignore
