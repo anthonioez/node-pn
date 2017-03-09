@@ -1,4 +1,6 @@
 {
+  "name": "node-pn",
+  "description": "Push Notification sender for mobiles (android, ios)",
   "dependencies": {
     "async": "^1.5.2",
     "bluebird": "^3.3.5",
@@ -10,7 +12,6 @@
     "request": "^2.70.0",
     "underscore": "^1.8.3"
   },
-  "description": "Push Notification sender for mobiles (android, ios)",
   "devDependencies": {},
   "engines": {
     "node": ">=4.4.2"
@@ -24,8 +25,7 @@
     "wns"
   ],
   "license": "Apache-2.0",
-  "main": "sender.js",
-  "name": "node-pn",
+  "main": "index.js",
   "optionalDependencies": {},
   "version": "1.0.0",
   "scripts": {
