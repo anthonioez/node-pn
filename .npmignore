@@ -1,7 +1,11 @@
 .idea/
 
 logs/
+pids/
+results/
 
+/node_modules
+/.git
 ### Node ###
 lib-cov
 *.seed
@@ -12,8 +16,4 @@ lib-cov
 *.pid
 *.gz
 *.pem
-/node_modules
-pids/
-results/
 npm-debug.log
-.git/
