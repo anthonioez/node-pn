@@ -1,0 +1,43 @@
+{
+  "dependencies": {
+    "async": "^1.5.2",
+    "bluebird": "^3.3.5",
+    "bunyan": "^1.8.0",
+    "debug": "^2.2.0",
+    "http2": "^3.3.2",
+    "js2xmlparser": "^1.0.0",
+    "node-forge": "^0.6.39",
+    "request": "^2.70.0",
+    "underscore": "^1.8.3"
+  },
+  "description": "Push Notification sender for mobiles (android, ios)",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=4.4.2"
+  },
+  "keywords": [
+    "push",
+    "gcm",
+    "notification",
+    "mobile",
+    "apn",
+    "wns"
+  ],
+  "license": "Apache-2.0",
+  "main": "sender.js",
+  "name": "node-pn",
+  "optionalDependencies": {},
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonioez/node-pn.git"
+  },
+  "author": "anthonioez",
+  "bugs": {
+    "url": "https://github.com/anthonioez/node-pn/issues"
+  },
+  "homepage": "https://github.com/anthonioez/node-pn#readme"
+}
