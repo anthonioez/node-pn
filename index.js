@@ -56,6 +56,10 @@ module.exports = function ()
      */
     Sender.prototype.sendIOS = function (config, tokens, data) 
     {        
+        if(config.sound != undefined && data.sound == undefined) data.sound = config.sound        
+        if(config.badge != undefined && data.badge == undefined) data.badge = config.badge
+        if(config.icon != undefined && data.icon == undefined) data.icon = config.icon
+
         var apn = new Apn.Connection(config);
         
         apn.send(tokens, data);
