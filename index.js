@@ -125,10 +125,11 @@ module.exports = function ()
 
         if (!tokens || tokens.length == 0) 
         {
-            throw "Error, no endpoint url";
+            throw "Error, no tokens";
         }
 
-        if (!data) {
+        if (!data) 
+        {
             throw "Error, no data";
         }
 
